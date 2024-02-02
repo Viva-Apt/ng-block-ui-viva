@@ -8,7 +8,8 @@ export const styles = `
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.70);
+  background: rgba(31, 64, 104, 0.5) !important;
+
   z-index: 30000;
   cursor: wait;
 }
@@ -19,6 +20,8 @@ export const styles = `
 
 .block-ui-wrapper.active {
   display: block;
+  background-color: rgba(31, 64, 104, 0.5) !important;
+
 }
 
 .block-ui-wrapper.block-ui-main {
